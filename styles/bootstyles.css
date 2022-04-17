@@ -1,0 +1,115 @@
+/* Andrew Goldston 4/12/22 */
+
+
+/* overwrite styles from template */
+
+.bold {
+    font-weight: bold
+}
+
+.italics {
+    font-style: italic;
+}
+
+.thirdcolumn-left {
+    float: left;
+    width: 30%;
+  }
+
+.thirdcolumn-right {
+    float: right;
+    width: 30%;
+  }
+
+.thirdcolumn-mid {
+    float: right;
+    width: 30%;
+}
+
+.owrow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.owrow {
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.smtitle {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.byubackground {
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/BYU_Logo.png");;
+}
+
+.footer-text {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(146, 110, 37, 0.928);
+}
+
+.education-title {
+    color: white;
+    font-weight: bold;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 3px rgb(19, 53, 113) ;
+}
+
+.education-font {
+    color: rgb(17, 44, 113);
+}
+
+.hammerbackground {
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/hammerbackground.jpeg");;
+}
+
+.column-left {
+    float: left;
+    width: 50%;
+    padding: 2%;
+  }
+
+.column-right {
+    float: right;
+    width: 50%;
+    padding: 2%;
+  }
+
+.i-thirdcolumn-left {
+    float: left;
+    width: 33%;
+    padding: 3%;
+  }
+
+.i-thirdcolumn-right {
+    float: left;
+    width: 33%;
+    padding: 3%;
+  }
+
+.i-thirdcolumn-mid {
+    float: left;
+    width: 33%;
+    padding: 3%;
+}
+
+.myHeader{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.homeVideo {
+    padding: 5%;
+    width: 80%;
+}
+
+.contact-bottom-heading {
+    font-size: 24;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.white {
+    color: white;
+}
